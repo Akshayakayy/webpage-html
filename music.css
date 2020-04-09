@@ -1,0 +1,184 @@
+
+.dropdown {
+	background-color: black;
+color: #E8CA82;
+       border-radius:20%;
+height:1.05em;
+width:1.05em;
+z-index:5;
+      font-size: 4em;
+border: none;
+position:fixed;
+	 font-family: Julius Sans One;
+cursor:pointer;
+
+}
+
+img{
+	width:18.5%;
+}
+
+.dropdown:hover {
+background-color: gray;
+}
+
+.dropdown-content {
+display: none;
+position: fixed;
+top:5em;
+	  background-color: black;
+	  min-width: 15%;
+z-index:10;
+}
+
+.dropdown-content a {
+color: #E8CA82;
+padding: 18px 18px;
+	 text-decoration: none;
+display: block;
+	 font-size:2em;
+	 font-family: Julius Sans One;
+}
+
+.dropdown-content a:hover {
+background-color: #E8CA82;
+color:black;
+
+}
+
+
+body {
+background:url("./images/me44.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+html,body{
+max-width: 100%;
+    overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+
+}
+
+
+.side {
+        background-color: black  ;
+width: 30%;
+left:68vw;
+height:98vh;
+opacity:1;
+margin:0;
+position:fixed;
+}
+
+.middle {
+        background-color: black  ;
+width: 70%;
+float:left;
+height:98vh;
+margin:0vh;
+}
+
+.back {
+        font-size:7vw;
+height: 7.7em;
+        line-height: 7.2em;
+}
+
+
+.header {
+font-family: Cedarville Cursive;
+position:fixed;
+left:50vw;
+top:-4.5vw;
+color:white;
+font-size:13vw;
+}
+
+.subheader{
+position:fixed;
+top:11vw;
+left:74vw;
+width:23vw;
+color:silver;
+font-size:2.8vw;
+font-family:Julius Sans One;
+z-index:1;
+animation-name: fadeIn;
+animation-duration: 2s;
+}
+
+.para{
+color:#E8CA82;
+font-size:1.1vw;
+font-family:Didact Gothic;
+}
+
+.p1{
+position:fixed;
+top:22vw;
+left:71.8vw;
+width:24.5vw;
+}
+
+.p2{
+position:fixed;
+top:27.5vw;
+left:71.8vw;
+width:24.5vw;
+}
+
+.p3{
+position:fixed;
+top:34.5vw;
+left:71.8vw;
+width:24.5vw;
+}
+
+.p4{
+position:fixed;
+top:40vw;
+left:71.8vw;
+width:24.5vw;
+}
+
+.and{
+position:fixed;
+top:2.4vw;
+left:70vw;
+color:#F74B49;
+font-size:12vw;
+font-family:Julius Sans One;
+opacity:0.8;
+animation-name: fadeIn;
+animation-duration: 2s;
+}
+
+.scroll{
+position:fixed;
+top:43vw;
+font-size:3vw;
+left:4vw;
+color:silver;
+opacity:0.6;
+font-family:Julius Sans One;
+z-index:-1;
+}
+
+table{
+margin:2vw;
+width:68%;
+padding:0;
+height:10px;
+z-index:5;
+}

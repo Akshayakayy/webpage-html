@@ -1,0 +1,178 @@
+
+.dropdown {
+	background-color: #151618;
+color: #E8CA82;
+       border-radius:20%;
+height:1.05em;
+width:1.05em;
+z-index:5;
+      font-size: 4em;
+border: none;
+position:fixed;
+	 font-family: Julius Sans One;
+cursor:pointer;
+top:0.5vw;
+left:0.5vw;
+}
+
+.dropdown:hover {
+background-color: gray;
+}
+
+.dropdown-content {
+display: none;
+position: fixed;
+top:5em;
+	  background-color: #151618;
+	  min-width: 15%;
+z-index:10;
+}
+
+.dropdown-content a {
+color: #E8CA82;
+padding: 18px 18px;
+	 text-decoration: none;
+display: block;
+	 font-size:2em;
+	 font-family: Julius Sans One;
+}
+
+.dropdown-content a:hover {
+background-color: #E8CA82;
+color:black;
+
+}
+
+
+body {
+background:url("./images/a2.jpg");
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.header{
+font-family:Julius Sans One;
+font-size:10vw;
+color:#E8CA82;
+position:absolute;
+left:25vw;
+top:18vw;
+z-index:1;
+}
+
+.sub{
+font-family:Julius Sans One;
+font-size:6vw;
+color:#E8CA82;
+background-color:black;
+border:none;
+width:8.2vw;
+height:3vw;
+font-size:1vw;
+}
+
+.sub:hover{
+text-shadow:0 0 1vw white;
+cursor: pointer;
+}
+
+.middle {
+width: 100%;
+float:left;
+height:70vw;
+margin:0;
+}
+
+.back {
+        font-size:7vw;
+height: 21vw;
+        line-height: 7.2em;
+}
+
+
+.dp{
+position:relative;
+width:14.283%;
+z-index:0;
+padding:none;
+display:inline-block;
+float:left;
+margin:none;
+border:none;
+}
+
+table{
+    margin:28vw 0 0 24.6vw;
+border-collapse:collapse;
+ width:15vw;
+ padding:0;
+}
+
+.left{
+width:45%;
+float:left;
+display:inline-block;
+color:white;
+padding:2vw;
+background-color:black;
+}
+
+.right{
+float:right;
+width:45%;
+padding:2vw;
+color:white;
+display:inline-block;
+background-color:black;
+}
+
+p{
+padding:2vw;
+font-size:1.5vw;
+font-family:Didact Gothic;
+}
+
+li{
+font-size:1.5vw;
+font-family:Didact Gothic;
+}
+
+h1{
+font-family:Julius Sans One;
+font-size:4.5vw;
+text-align: center;
+}
+
+h3{
+font-family:Over the Rainbow;
+font-size:3vw;
+text-align: center;
+}
+
+.topic{
+width: 100%;
+float:left;
+height:10vw;
+margin:0;
+background-color:black;
+color:white;
+opacity:0.7;
+}
+
+.sp1{
+float:left;
+width:32.39%;
+padding:0.2vw;
+}
+
+.sp2{
+float:right;
+padding:0.2vw;
+width:32.39%;
+}
+
+.ap{
+width:32.4%;
+}
